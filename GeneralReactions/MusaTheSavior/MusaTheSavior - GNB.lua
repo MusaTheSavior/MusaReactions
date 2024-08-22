@@ -182,8 +182,9 @@ local tbl =
 							805,
 							1228,
 							946,
+							856,
 						},
-						name = "GNB Map Lock",
+						name = "Raid Map Lock",
 						uuid = "cb9e4161-d7af-f5ae-8951-9ff1f1e8d2c5",
 						version = 2,
 					},
@@ -238,6 +239,7 @@ local tbl =
 					},
 				},
 			},
+			enabled = false,
 			eventType = 16,
 			name = "GNB MT Prepull",
 			uuid = "88daca11-9a68-cf7c-98a4-76d84fc7ca98",
@@ -250,6 +252,101 @@ local tbl =
 		{
 			actions = 
 			{
+				
+				{
+					data = 
+					{
+						aType = "ACR",
+						conditions = 
+						{
+							
+							{
+								"a9db8fb9-6300-877d-90d5-9af1a3cec5f6",
+								true,
+							},
+						},
+						gVar = "ACR_RikuGNB3_LightningShot",
+						gVarValue = 2,
+						name = "Lightning Shot Toggle OFF",
+						uuid = "e48b946d-d26c-991f-82ca-c3e0664718ec",
+						version = 2.1,
+					},
+					inheritedIndex = 1,
+				},
+				
+				{
+					data = 
+					{
+						aType = "ACR",
+						actionID = 16142,
+						conditions = 
+						{
+							
+							{
+								"a9db8fb9-6300-877d-90d5-9af1a3cec5f6",
+								true,
+							},
+						},
+						gVar = "ACR_RikuGNB3_Potion",
+						ignoreWeaveRules = true,
+						name = "Potion Toggle ON",
+						uuid = "fea22bf6-82cf-fd54-ad04-0d50c50bb43f",
+						version = 2.1,
+					},
+					inheritedIndex = 2,
+				},
+				
+				{
+					data = 
+					{
+						actionID = 7531,
+						conditions = 
+						{
+							
+							{
+								"08750d65-2920-b301-a79b-047697b98e02",
+								true,
+							},
+							
+							{
+								"a93b109d-60a2-9814-9574-4cd9abd0f34e",
+								true,
+							},
+						},
+						gVar = "ACR_RikuGNB3_Tankbar_Rampart",
+						ignoreWeaveRules = true,
+						uuid = "78972086-496b-98a3-9a94-421807633789",
+						variableTogglesType = 3,
+						version = 2.1,
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionID = 16151,
+						conditions = 
+						{
+							
+							{
+								"b5bcd8c7-552e-d2dc-b805-a7af1f520367",
+								true,
+							},
+							
+							{
+								"14631d77-8f9b-0f5f-8219-009913a2ef50",
+								true,
+							},
+						},
+						gVar = "ACR_RikuGNB3_CD",
+						ignoreWeaveRules = true,
+						name = "GNB OT Aurora",
+						targetType = "Tank",
+						uuid = "bdc9a1f2-e3cd-4ef3-9684-3a317a738721",
+						version = 2.1,
+					},
+					inheritedIndex = 4,
+				},
 				
 				{
 					data = 
@@ -270,10 +367,11 @@ local tbl =
 						},
 						gVar = "ACR_RikuGNB3_CD",
 						ignoreWeaveRules = true,
-						targetType = "Other Tank",
+						targetType = "Tank",
 						uuid = "ac6007ca-6801-ebb3-af6a-efd844aac491",
 						version = 2.1,
 					},
+					inheritedIndex = 6,
 				},
 				
 				{
@@ -295,50 +393,7 @@ local tbl =
 						uuid = "99e314b7-ec92-3624-877c-fcc462b92cf9",
 						version = 2.1,
 					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "ACR",
-						gVar = "ACR_RikuGNB3_LightningShot",
-						gVarValue = 2,
-						name = "Lightning Shot OFF",
-						uuid = "e48b946d-d26c-991f-82ca-c3e0664718ec",
-						version = 2.1,
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "ACR",
-						actionID = 16142,
-						gVar = "ACR_RikuGNB3_Potion",
-						ignoreWeaveRules = true,
-						uuid = "fea22bf6-82cf-fd54-ad04-0d50c50bb43f",
-						version = 2.1,
-					},
-				},
-				
-				{
-					data = 
-					{
-						actionID = 16143,
-						conditions = 
-						{
-							
-							{
-								"5b32dde2-6db4-5086-93f7-8ff108323d43",
-								true,
-							},
-						},
-						gVar = "ACR_RikuGNB3_LightningShot",
-						ignoreWeaveRules = true,
-						targetType = "Current Target",
-						uuid = "34d531c2-7b35-9199-9391-2d6d3cce2cf5",
-						version = 2.1,
-					},
+					inheritedIndex = 6,
 				},
 			},
 			conditions = 
@@ -354,8 +409,9 @@ local tbl =
 							1082,
 							1196,
 							1201,
+							856,
 						},
-						name = "GNB Map Lock",
+						name = "Raid Map Lock",
 						uuid = "b5bcd8c7-552e-d2dc-b805-a7af1f520367",
 						version = 2,
 					},
@@ -364,11 +420,27 @@ local tbl =
 				{
 					data = 
 					{
+						category = "Self",
+						conditionType = 12,
+						localMapIDList = 
+						{
+							968,
+						},
+						name = "DSR Map Lock",
+						uuid = "08750d65-2920-b301-a79b-047697b98e02",
+						version = 2,
+					},
+					inheritedIndex = 2,
+				},
+				
+				{
+					data = 
+					{
 						category = "Event",
 						comparator = 2,
-						eventCountdownTime = 1.7000000476837,
-						name = "GNB HoC Timer",
-						uuid = "a321e4e9-bdc0-c350-8e0f-e7a8d841ec67",
+						eventCountdownTime = 22,
+						name = "Toggle Timer",
+						uuid = "a9db8fb9-6300-877d-90d5-9af1a3cec5f6",
 						version = 2,
 					},
 				},
@@ -383,7 +455,33 @@ local tbl =
 						uuid = "a93b109d-60a2-9814-9574-4cd9abd0f34e",
 						version = 2,
 					},
-					inheritedIndex = 3,
+					inheritedIndex = 6,
+				},
+				
+				{
+					data = 
+					{
+						category = "Event",
+						comparator = 2,
+						eventCountdownTime = 3,
+						name = "GNB OT Aurora Timer",
+						uuid = "14631d77-8f9b-0f5f-8219-009913a2ef50",
+						version = 2,
+					},
+					inheritedIndex = 5,
+				},
+				
+				{
+					data = 
+					{
+						category = "Event",
+						comparator = 2,
+						eventCountdownTime = 1.7000000476837,
+						name = "GNB HoC Timer",
+						uuid = "a321e4e9-bdc0-c350-8e0f-e7a8d841ec67",
+						version = 2,
+					},
+					inheritedIndex = 6,
 				},
 				
 				{
@@ -396,21 +494,9 @@ local tbl =
 						uuid = "e438cbe3-7528-bcb4-b471-290c122e39bb",
 						version = 2,
 					},
-				},
-				
-				{
-					data = 
-					{
-						category = "Event",
-						comparator = 2,
-						eventCountdownTime = 0.69999998807907,
-						name = "Lightning Shot Timer",
-						uuid = "5b32dde2-6db4-5086-93f7-8ff108323d43",
-						version = 2,
-					},
+					inheritedIndex = 7,
 				},
 			},
-			enabled = false,
 			eventType = 16,
 			name = "GNB OT Prepull",
 			uuid = "45a7a633-e7e3-f224-a2c9-fa02efd171af",
