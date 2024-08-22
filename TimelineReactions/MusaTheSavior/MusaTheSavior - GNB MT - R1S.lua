@@ -261,7 +261,7 @@ local tbl =
 				mechanicTime = 64.4,
 				name = "Camo",
 				timelineIndex = 14,
-				timerOffset = -3,
+				timerOffset = -11,
 				uuid = "972828a6-a730-e7d3-b7b8-36f36d35475d",
 				version = 2,
 			},
