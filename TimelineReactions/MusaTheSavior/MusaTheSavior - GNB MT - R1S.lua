@@ -232,7 +232,7 @@ local tbl =
 				mechanicTime = 64.4,
 				name = "HoC",
 				timelineIndex = 14,
-				timerOffset = 1,
+				timerOffset = 11,
 				uuid = "5afab57a-24f5-8ab4-8d4e-91fd19b84705",
 				version = 2,
 			},
