@@ -1062,6 +1062,39 @@ local tbl =
 			},
 		},
 	},
+	[51] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Hotbar_Provoke",
+							uuid = "eee1c0e1-2a18-11f3-b490-f1fc2d2d17a5",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 297,
+				name = "Provoke ",
+				timelineIndex = 51,
+				timerOffset = -4,
+				uuid = "7f036f10-1341-1cc6-ab20-6a7d53a0d799",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+	},
 	[54] = 
 	{
 		
@@ -1136,9 +1169,9 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuWAR3_Tankbar_Rampart",
-							uuid = "4c83086b-5b99-cce9-b2fd-8a4456d1b0d0",
-							variableTogglesType = 3,
+							gVar = "ACR_RikuWAR3_Hotbar_Provoke",
+							uuid = "eee1c0e1-2a18-11f3-b490-f1fc2d2d17a5",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -1147,10 +1180,10 @@ local tbl =
 				{
 				},
 				mechanicTime = 353.7,
-				name = "Rampart",
+				name = "Provoke ",
 				timelineIndex = 56,
-				timerOffset = -10,
-				uuid = "787512a0-92c1-d490-b51e-a4345c3267ed",
+				timerOffset = -12,
+				uuid = "004e9b37-5daf-865a-870a-fe99d9f08ce8",
 				version = 2,
 			},
 			inheritedIndex = 1,
@@ -1224,6 +1257,36 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Tankbar_Holmgang",
+							uuid = "a891d2ac-8440-86d3-a3fb-38248d61caf8",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 353.7,
+				name = "Holmgang",
+				timelineIndex = 56,
+				timerOffset = -2,
+				uuid = "0765f22b-bad7-b357-a865-93d8e8a27c91",
+				version = 2,
+			},
+			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
 							conditions = 
 							{
 								
@@ -1258,6 +1321,7 @@ local tbl =
 				mechanicTime = 353.7,
 				name = "BloodWhetting",
 				timelineIndex = 56,
+				timerOffset = 6.5,
 				uuid = "bcfdf865-caa5-3bd0-87ce-69819d9f69cb",
 				version = 2,
 			},
@@ -1288,6 +1352,35 @@ local tbl =
 				timelineIndex = 56,
 				timerOffset = -10,
 				uuid = "55d67dd9-8053-9872-85a9-ee3110a5a036",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Hotbar_ShirkOT",
+							uuid = "02f4ccd1-a7f2-a2fa-a685-7df1f84a517d",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 353.7,
+				name = "Shirk OT",
+				timelineIndex = 56,
+				timerOffset = 10,
+				uuid = "af529c61-15bb-6594-9255-aa8725a1bdca",
 				version = 2,
 			},
 		},
@@ -1987,6 +2080,35 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Hotbar_Provoke",
+							uuid = "eee1c0e1-2a18-11f3-b490-f1fc2d2d17a5",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 573.2,
+				name = "Provoke ",
+				timelineIndex = 90,
+				timerOffset = -4,
+				uuid = "ded9cb3b-f851-604c-9e21-4e0311af8300",
+				version = 2,
+			},
 		},
 	},
 	[98] = 
