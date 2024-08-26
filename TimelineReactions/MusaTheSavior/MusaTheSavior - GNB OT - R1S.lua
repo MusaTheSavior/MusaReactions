@@ -62,9 +62,6 @@ local tbl =
 				version = 2,
 			},
 		},
-	},
-	[6] = 
-	{
 		
 		{
 			data = 
@@ -104,12 +101,12 @@ local tbl =
 						},
 					},
 				},
-				mechanicTime = 23,
+				mechanicTime = 20,
 				name = "Stance ON",
 				timeRange = true,
-				timelineIndex = 6,
+				timelineIndex = 5,
 				timerEndOffset = 8,
-				uuid = "b4d684c6-0cf2-fff7-8ff2-cb8cb56d619a",
+				uuid = "bd8fded7-565d-4df9-b25f-b441b393d8e9",
 				version = 2,
 			},
 		},
@@ -516,6 +513,9 @@ local tbl =
 				version = 2,
 			},
 		},
+	},
+	[32] = 
+	{
 		
 		{
 			data = 
@@ -555,12 +555,12 @@ local tbl =
 						},
 					},
 				},
-				mechanicTime = 121.8,
+				mechanicTime = 131.9,
 				name = "Stance ON",
 				timeRange = true,
-				timelineIndex = 31,
+				timelineIndex = 32,
 				timerEndOffset = 8,
-				uuid = "eb40034f-8df4-5292-80b9-b63ca6100329",
+				uuid = "4319da1a-a684-a678-9484-cd2d92befe9b",
 				version = 2,
 			},
 		},
@@ -578,8 +578,8 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumSelf",
-							uuid = "7a31775d-7d1c-b35e-9916-7a0ec712c7ac",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumOT",
+							uuid = "4eeec887-187e-9d62-8727-c18abe3631e6",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -589,44 +589,44 @@ local tbl =
 				{
 				},
 				mechanicTime = 166,
-				name = "HoC",
+				name = "HoC OT",
 				timelineIndex = 35,
-				uuid = "779c594c-7fc2-8940-9784-15b2dccb09a0",
+				uuid = "c2c26bc8-7032-5313-be9b-fc674f68e210",
 				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+	},
+	[37] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Elevate Autoface Solver",
+				uuid = "62d8a14e-ffdd-84d1-ae2e-fcccb91eddb8",
+				version = 2,
+			},
+			inheritedObjectUUID = "d11a6d1c-aa7d-dbd7-821e-0dc79e7f1a9d",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = -0.15000000596046,
 			},
 		},
 		
 		{
 			data = 
 			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Hotbar_Provoke",
-							uuid = "af606d17-627a-0b6f-9a0a-daa42b85b642",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 166,
-				name = "Provoke",
-				timelineIndex = 35,
-				timerOffset = -4,
-				uuid = "4c8ab6f7-8a9a-58db-af59-f3245a2dedf2",
+				name = "Elevate Force Autoface",
+				uuid = "f4776a60-7c9b-1637-810b-8f34e234c3a8",
 				version = 2,
 			},
+			inheritedObjectUUID = "2ddc678f-8186-5079-82fe-a6d2ba343f00",
+			inheritedOverwrites = 
+			{
+				timerStartOffset = -0.34999999403954,
+			},
 		},
-	},
-	[37] = 
-	{
 		
 		{
 			data = 
@@ -657,6 +657,37 @@ local tbl =
 			},
 		},
 	},
+	[41] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Elevate Autoface Solver",
+				uuid = "f2740759-0365-7344-be3a-1c1f7487d630",
+				version = 2,
+			},
+			inheritedObjectUUID = "c7ee5192-2064-c1eb-8c5e-f13ee882e204",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = -0.15000000596046,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Elevate Force Autoface",
+				uuid = "281ec559-cdab-7d00-8363-421530f246f9",
+				version = 2,
+			},
+			inheritedObjectUUID = "58a6926f-120e-2a46-8b81-9ff42621a471",
+			inheritedOverwrites = 
+			{
+				timerStartOffset = -0.34999999403954,
+			},
+		},
+	},
 	[42] = 
 	{
 		
@@ -670,8 +701,8 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumSelf",
-							uuid = "7a31775d-7d1c-b35e-9916-7a0ec712c7ac",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumOT",
+							uuid = "4eeec887-187e-9d62-8727-c18abe3631e6",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -681,11 +712,12 @@ local tbl =
 				{
 				},
 				mechanicTime = 190.4,
-				name = "HoC",
+				name = "HoC OT",
 				timelineIndex = 42,
-				uuid = "b6606e3f-845c-dd96-8825-c744b914a7af",
+				uuid = "e0e06e46-68f4-c66b-905f-5c24d46cb168",
 				version = 2,
 			},
+			inheritedIndex = 2,
 		},
 	},
 	[43] = 
@@ -701,8 +733,8 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_Camouflage",
-							uuid = "48040040-ce42-98b8-a2f9-c0717a747507",
+							gVar = "ACR_RikuGNB3_Tankbar_AuroraOT",
+							uuid = "f636e6e7-7c9e-4501-8370-72e0c90f6294",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -712,43 +744,73 @@ local tbl =
 				{
 				},
 				mechanicTime = 193.3,
-				name = "Camo",
+				name = "Aurora OT",
 				timelineIndex = 43,
-				timerOffset = -19,
-				uuid = "2c914800-17e8-faa1-b97c-aaa36d313f94",
+				timerOffset = -18,
+				uuid = "f5fc3ef7-fcee-1383-997f-cdb5f107a1db",
 				version = 2,
 			},
 		},
 	},
-	[44] = 
+	[45] = 
 	{
 		
 		{
 			data = 
 			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_AuroraSelf",
-							uuid = "e4180680-b0c4-a328-aa98-d32562bab5e7",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 198.3,
-				name = "Aurora",
-				timelineIndex = 44,
-				timerOffset = -18,
-				uuid = "9b6655b5-34a4-c490-9501-1c1c9a2fca03",
+				name = "Elevate Autoface Solver",
+				uuid = "e5a1576b-2192-e69c-858d-7691e809effe",
 				version = 2,
+			},
+			inheritedObjectUUID = "af1135e6-8efe-ba37-863b-ddcc7742057d",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = -0.15000000596046,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Elevate Force Autoface",
+				uuid = "4ab1f55c-3135-651d-908b-b150d30afae5",
+				version = 2,
+			},
+			inheritedObjectUUID = "4d92cbbc-bccb-e7fa-838d-dca6fae5f322",
+			inheritedOverwrites = 
+			{
+				timerStartOffset = -0.34999999403954,
+			},
+		},
+	},
+	[49] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Elevate Autoface Solver",
+				uuid = "fcf43965-b7de-37ed-8de3-4c6d0693d5e1",
+				version = 2,
+			},
+			inheritedObjectUUID = "56b73eaa-a88e-8dd9-8249-1a17c38c44ba",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = -0.15000000596046,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Elevate Force Autoface",
+				uuid = "c8c71df2-9f7c-5bff-8009-818d39f3ad85",
+				version = 2,
+			},
+			inheritedObjectUUID = "cb48e060-6cad-6f1c-83d0-526619c4bfc6",
+			inheritedOverwrites = 
+			{
+				timerStartOffset = -0.34999999403954,
 			},
 		},
 	},
@@ -765,9 +827,9 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Hotbar_Provoke",
-							uuid = "af606d17-627a-0b6f-9a0a-daa42b85b642",
-							variableTogglesType = 2,
+							gVar = "ACR_RikuGNB3_Tankbar_AuroraOT",
+							uuid = "f636e6e7-7c9e-4501-8370-72e0c90f6294",
+							variableTogglesType = 3,
 							version = 2.1,
 						},
 					},
@@ -776,13 +838,48 @@ local tbl =
 				{
 				},
 				mechanicTime = 216.1,
-				name = "Provoke",
+				name = "Aurora OT",
 				timelineIndex = 52,
-				timerOffset = -1,
-				uuid = "a8107d3d-0440-7ea6-8a5c-08a4d8a89a92",
+				timerOffset = -18,
+				uuid = "d7752d2c-367d-7004-a60e-bf3fb9ba9e7f",
 				version = 2,
 			},
 		},
+	},
+	[53] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Hotbar_Provoke",
+							uuid = "c247c875-ddda-29fc-8fa2-e9766b2e4264",
+							variableTogglesType = 2,
+							version = 2,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 223.2,
+				name = "Provoke",
+				timelineIndex = 53,
+				timerOffset = -3,
+				uuid = "eaca06f7-8dbe-9c91-8bce-250e4a9aefbb",
+				version = 2,
+			},
+		},
+	},
+	[54] = 
+	{
 		
 		{
 			data = 
@@ -804,13 +901,44 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 216.1,
+				mechanicTime = 225.2,
 				name = "Rampart",
-				timelineIndex = 52,
+				timelineIndex = 54,
 				timerOffset = -19,
-				uuid = "ba1dcae6-f058-a041-bae7-5decbd0dff17",
+				uuid = "be24630e-8459-72fd-9fc9-d54e20000618",
 				version = 2,
 			},
+			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_Camouflage",
+							uuid = "48040040-ce42-98b8-a2f9-c0717a747507",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 225.2,
+				name = "Camo",
+				timelineIndex = 54,
+				timerOffset = -19,
+				uuid = "e8c28866-71a1-9162-a4c1-4c876f60e3d3",
+				version = 2,
+			},
+			inheritedIndex = 4,
 		},
 		
 		{
@@ -833,46 +961,15 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 216.1,
+				mechanicTime = 225.2,
 				name = "Great Nebula",
-				timelineIndex = 52,
-				timerOffset = -14,
-				uuid = "13505def-e1b1-6f94-9238-79601990be8b",
+				timelineIndex = 54,
+				timerOffset = -10,
+				uuid = "69610985-4dc9-0cfe-b71a-528e237438d3",
 				version = 2,
 			},
+			inheritedIndex = 5,
 		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_AuroraSelf",
-							uuid = "e4180680-b0c4-a328-aa98-d32562bab5e7",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 216.1,
-				name = "Aurora",
-				timelineIndex = 52,
-				timerOffset = -18,
-				uuid = "4ad8c9c4-148d-ed86-9bc3-298282e5a94a",
-				version = 2,
-			},
-		},
-	},
-	[53] = 
-	{
 		
 		{
 			data = 
@@ -885,26 +982,23 @@ local tbl =
 						{
 							aType = "ACR",
 							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumSelf",
-							uuid = "7a31775d-7d1c-b35e-9916-7a0ec712c7ac",
+							uuid = "2e148fad-5f8d-0b19-8adf-ef5635cbea9c",
 							variableTogglesType = 3,
-							version = 2.1,
+							version = 2,
 						},
 					},
 				},
 				conditions = 
 				{
 				},
-				mechanicTime = 223.2,
-				name = "HoC",
-				timelineIndex = 53,
-				timerOffset = 1,
-				uuid = "435bcc2e-f0c9-0a24-8346-70f449101433",
+				mechanicTime = 225.2,
+				name = "HoC Self",
+				timelineIndex = 54,
+				timerOffset = -3,
+				uuid = "91f80c2f-8954-f6f2-9bfd-e6a7a11c8cab",
 				version = 2,
 			},
 		},
-	},
-	[54] = 
-	{
 		
 		{
 			data = 
@@ -916,9 +1010,9 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_Superbolide",
-							uuid = "aa38ec02-2cad-ad24-82ef-ff90d0ab5554",
-							variableTogglesType = 3,
+							gVar = "ACR_RikuGNB3_Hotbar_ShirkOT",
+							uuid = "71e32c90-8278-beed-b645-808134c081b5",
+							variableTogglesType = 2,
 							version = 2.1,
 						},
 					},
@@ -927,10 +1021,10 @@ local tbl =
 				{
 				},
 				mechanicTime = 225.2,
-				name = "Superbolide",
+				name = "Shirk OT",
 				timelineIndex = 54,
-				timerOffset = -6,
-				uuid = "979c7ff0-54b4-79b6-91e7-c67d041bf9bd",
+				timerOffset = 2,
+				uuid = "ce9964c7-d240-c1b8-8cfd-8e34e33c3277",
 				version = 2,
 			},
 		},
@@ -1090,7 +1184,7 @@ local tbl =
 			},
 		},
 	},
-	[95] = 
+	[84] = 
 	{
 		
 		{
@@ -1113,11 +1207,43 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 422.6,
+				mechanicTime = 352.4,
 				name = "Sprint",
-				timelineIndex = 95,
+				timelineIndex = 84,
 				timerOffset = -10,
-				uuid = "1b60f73d-0857-b692-b7bc-59d172f5deb5",
+				uuid = "212c0be1-319e-2cee-8bca-2806ce93791f",
+				version = 2,
+			},
+		},
+	},
+	[92] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Hotbar_Sprint",
+							uuid = "0209f3d7-5bea-3cc2-9be0-03b9491ce73a",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 416.7,
+				name = "Sprint",
+				timelineIndex = 92,
+				timerOffset = -10,
+				uuid = "6931c01b-490f-ce40-9aba-70522d9ace69",
 				version = 2,
 			},
 		},
@@ -1283,6 +1409,23 @@ local tbl =
 			},
 		},
 	},
+	[118] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Elevate Autoface Solver",
+				uuid = "b7179c9f-7e67-afe4-bc0c-a27eb0820474",
+				version = 2,
+			},
+			inheritedObjectUUID = "96718035-b09a-d91f-ad0d-b09747e3f6b6",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = -0.15000000596046,
+			},
+		},
+	},
 	[121] = 
 	{
 		
@@ -1342,6 +1485,23 @@ local tbl =
 				timerOffset = -14,
 				uuid = "33e0cf98-f1e2-85f7-8f04-90037237309a",
 				version = 2,
+			},
+		},
+	},
+	[125] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Elevate Autoface Solver",
+				uuid = "fa905a93-6fdc-fa9d-ba8f-14701148beae",
+				version = 2,
+			},
+			inheritedObjectUUID = "0c9f169d-769a-d04c-9544-7b642e3e2be3",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = -0.15000000596046,
 			},
 		},
 	},
