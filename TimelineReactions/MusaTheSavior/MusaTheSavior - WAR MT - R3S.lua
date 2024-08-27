@@ -762,7 +762,7 @@ local tbl =
 				mechanicTime = 177.6,
 				name = "Thrill",
 				timelineIndex = 30,
-				timerOffset = -3,
+				timerOffset = 2,
 				uuid = "89677d8d-4d95-ee7c-9cbd-57799855f6a5",
 				version = 2,
 			},
@@ -791,7 +791,7 @@ local tbl =
 				mechanicTime = 177.6,
 				name = "Equilibrium",
 				timelineIndex = 30,
-				timerOffset = 2,
+				timerOffset = 6,
 				uuid = "5bb08791-3397-2ea1-86d3-30df9aa6cf45",
 				version = 2,
 			},
@@ -1218,6 +1218,39 @@ local tbl =
 			},
 		},
 	},
+	[51] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Hotbar_Provoke",
+							uuid = "eee1c0e1-2a18-11f3-b490-f1fc2d2d17a5",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 297,
+				name = "Provoke ",
+				timelineIndex = 51,
+				timerOffset = -4,
+				uuid = "201cc185-14d6-47e3-9197-b2c7be94bdfa",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+	},
 	[54] = 
 	{
 		
@@ -1292,6 +1325,36 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Hotbar_Provoke",
+							uuid = "eee1c0e1-2a18-11f3-b490-f1fc2d2d17a5",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 353.7,
+				name = "Provoke ",
+				timelineIndex = 56,
+				timerOffset = -12,
+				uuid = "46068f19-119d-686c-862a-79ddfb96fe43",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
 							gVar = "ACR_RikuWAR3_Tankbar_Damnation",
 							uuid = "019ecb3f-1e0b-7e45-bd68-077a19a08611",
 							variableTogglesType = 3,
@@ -1350,36 +1413,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuWAR3_Tankbar_Holmgang",
-							uuid = "a891d2ac-8440-86d3-a3fb-38248d61caf8",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 353.7,
-				name = "Holmgang",
-				timelineIndex = 56,
-				timerOffset = -2,
-				uuid = "aec8fb21-9a26-aed3-bcdf-bec16b1b5370",
-				version = 2,
-			},
-			inheritedIndex = 3,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
 							gVar = "ACR_RikuWAR3_Tankbar_Equilibrium",
 							uuid = "8acdb49a-b851-cae0-bc60-be2cef494c9d",
 							variableTogglesType = 3,
@@ -1397,6 +1430,36 @@ local tbl =
 				uuid = "8c41916c-1a38-c8a7-9ac7-0faa0447f9cb",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Tankbar_Holmgang",
+							uuid = "a891d2ac-8440-86d3-a3fb-38248d61caf8",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 353.7,
+				name = "Holmgang",
+				timelineIndex = 56,
+				timerOffset = -2,
+				uuid = "aec8fb21-9a26-aed3-bcdf-bec16b1b5370",
+				version = 2,
+			},
+			inheritedIndex = 5,
 		},
 		
 		{
@@ -2235,6 +2298,52 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 3,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Hotbar_Provoke",
+							uuid = "eee1c0e1-2a18-11f3-b490-f1fc2d2d17a5",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 573.2,
+				name = "Provoke ",
+				timelineIndex = 90,
+				timerOffset = -4,
+				uuid = "18b64072-e2e8-aa87-b880-e1515df5265a",
+				version = 2,
+			},
+		},
+	},
+	[94] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Knockback Arrow",
+				uuid = "567a5f73-d2ab-cd92-8f5e-62adbab32cd5",
+				version = 2,
+			},
+			inheritedObjectUUID = "a7c44563-f54a-7cda-8860-45e38b63673c",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = 0.20000000298023,
+			},
 		},
 	},
 	[98] = 
