@@ -468,6 +468,20 @@ local tbl =
 		{
 			data = 
 			{
+				name = "Anti-Knockback",
+				uuid = "5ead6854-0744-f236-aecc-1461e7b55a52",
+				version = 2,
+			},
+			inheritedObjectUUID = "9cdc694b-c7e6-aaa9-a89e-2ebe2930056e",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = -2.7000000476837,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -490,6 +504,66 @@ local tbl =
 				timelineIndex = 25,
 				timerOffset = -2,
 				uuid = "450bccc0-cc3c-55f5-8b72-c8fdfd7fde4a",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Jumps",
+							gVarValue = 2,
+							uuid = "80fc2a4f-b8d6-9f29-b94b-317d6d7fc611",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 153.8,
+				name = "Jumps OFF",
+				timelineIndex = 25,
+				timerOffset = -3,
+				uuid = "b0ffdcb7-9a38-6462-9017-a17dadb2f832",
+				version = 2,
+			},
+		},
+	},
+	[27] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Jumps",
+							uuid = "15f08adc-8113-6a7c-8f84-4165a24c474c",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 157.9,
+				name = "Jumps ON",
+				timelineIndex = 27,
+				timerOffset = 0.5,
+				uuid = "e23f336a-4f67-08ac-aea8-7eca56078bd6",
 				version = 2,
 			},
 		},
@@ -1001,6 +1075,69 @@ local tbl =
 			},
 		},
 	},
+	[47] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Jumps",
+							gVarValue = 2,
+							uuid = "80fc2a4f-b8d6-9f29-b94b-317d6d7fc611",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 277.2,
+				name = "Jumps OFF",
+				timelineIndex = 47,
+				timerOffset = -3,
+				uuid = "8ef889fa-1bf7-af11-9db0-89bcd7700f0e",
+				version = 2,
+			},
+		},
+	},
+	[49] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Jumps",
+							uuid = "15f08adc-8113-6a7c-8f84-4165a24c474c",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 281.2,
+				name = "Jumps ON",
+				timelineIndex = 49,
+				timerOffset = 0.5,
+				uuid = "9985d5b1-0012-f237-b7eb-29121d9d296f",
+				version = 2,
+			},
+		},
+	},
 	[50] = 
 	{
 		
@@ -1484,6 +1621,52 @@ local tbl =
 			},
 		},
 	},
+	[73] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Anti-Knockback",
+				uuid = "65d0b3aa-aea1-1e50-9466-ed1d0231ba10",
+				version = 2,
+			},
+			inheritedObjectUUID = "5c23b433-2dc2-31e8-b6f8-d67a6f8907e4",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = -2.7000000476837,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Jumps",
+							gVarValue = 2,
+							uuid = "80fc2a4f-b8d6-9f29-b94b-317d6d7fc611",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 469.3,
+				name = "Jumps OFF",
+				timelineIndex = 73,
+				timerOffset = -3,
+				uuid = "4856de4c-4ffa-09c7-ad89-a13256467634",
+				version = 2,
+			},
+		},
+	},
 	[75] = 
 	{
 		
@@ -1512,6 +1695,34 @@ local tbl =
 				timelineIndex = 75,
 				timerOffset = -14,
 				uuid = "0da9b16f-de57-27d3-9438-9252f51a31a8",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Jumps",
+							uuid = "15f08adc-8113-6a7c-8f84-4165a24c474c",
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 473.4,
+				name = "Jumps ON",
+				timelineIndex = 75,
+				timerOffset = 0.5,
+				uuid = "3809f2af-1f86-1560-ac33-d8612cbd9a2d",
 				version = 2,
 			},
 		},
