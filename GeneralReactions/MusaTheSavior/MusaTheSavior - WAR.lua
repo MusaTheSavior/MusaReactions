@@ -62,7 +62,7 @@ local tbl =
 							},
 							
 							{
-								"bb36ffa6-648d-7750-bbba-20a3f986b781",
+								"f4aca0bf-d29a-e6af-9133-1d6ab5f7922c",
 								true,
 							},
 						},
@@ -81,12 +81,12 @@ local tbl =
 						{
 							
 							{
-								"bb36ffa6-648d-7750-bbba-20a3f986b781",
+								"c269c4d8-9a0c-ad82-8232-98da9d47a4e1",
 								true,
 							},
 							
 							{
-								"c269c4d8-9a0c-ad82-8232-98da9d47a4e1",
+								"f4aca0bf-d29a-e6af-9133-1d6ab5f7922c",
 								true,
 							},
 						},
@@ -150,12 +150,12 @@ local tbl =
 						{
 							
 							{
-								"bb36ffa6-648d-7750-bbba-20a3f986b781",
+								"248cd1f4-9aee-e25c-8b66-7fe096ba8d59",
 								true,
 							},
 							
 							{
-								"248cd1f4-9aee-e25c-8b66-7fe096ba8d59",
+								"14005e09-6b4c-a4f2-af96-9c89b90905e9",
 								true,
 							},
 						},
@@ -219,6 +219,48 @@ local tbl =
 						conditionType = 12,
 						localMapIDList = 
 						{
+							1226,
+							1228,
+							1230,
+							1232,
+							1201,
+							1196,
+						},
+						name = "BW Map Lock",
+						uuid = "f4aca0bf-d29a-e6af-9133-1d6ab5f7922c",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 12,
+						localMapIDList = 
+						{
+							1226,
+							1228,
+							1230,
+							1232,
+							993,
+							1201,
+						},
+						name = "Shake Map Lock",
+						uuid = "14005e09-6b4c-a4f2-af96-9c89b90905e9",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 12,
+						localMapIDList = 
+						{
 							1082,
 							1227,
 							1196,
@@ -232,6 +274,8 @@ local tbl =
 							856,
 							1226,
 							1230,
+							913,
+							993,
 						},
 						name = "WAR Map Lock",
 						uuid = "bb36ffa6-648d-7750-bbba-20a3f986b781",
@@ -437,12 +481,12 @@ local tbl =
 						{
 							
 							{
-								"9b076d82-2c7f-97e5-b2fb-c33e3cd311bf",
+								"9088131a-fa15-c3cf-b250-98292e6e2fa1",
 								true,
 							},
 							
 							{
-								"9088131a-fa15-c3cf-b250-98292e6e2fa1",
+								"52146a1e-47ef-03b9-8af7-93d83c3c14c1",
 								true,
 							},
 						},
@@ -461,12 +505,12 @@ local tbl =
 						{
 							
 							{
-								"9b076d82-2c7f-97e5-b2fb-c33e3cd311bf",
+								"3dd617f2-6c00-40f0-a9aa-83bc28bec242",
 								true,
 							},
 							
 							{
-								"3dd617f2-6c00-40f0-a9aa-83bc28bec242",
+								"ccf56f61-6584-bc9f-9bd7-3c02bf51b8d6",
 								true,
 							},
 						},
@@ -480,6 +524,48 @@ local tbl =
 			},
 			conditions = 
 			{
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 12,
+						localMapIDList = 
+						{
+							1226,
+							1228,
+							1230,
+							1232,
+							1201,
+							1196,
+						},
+						name = "BW Map Lock",
+						uuid = "ccf56f61-6584-bc9f-9bd7-3c02bf51b8d6",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 12,
+						localMapIDList = 
+						{
+							1226,
+							1228,
+							1230,
+							1232,
+							993,
+							1201,
+						},
+						name = "Shake Map Lock",
+						uuid = "52146a1e-47ef-03b9-8af7-93d83c3c14c1",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
 				
 				{
 					data = 
@@ -502,6 +588,8 @@ local tbl =
 							1226,
 							1228,
 							1230,
+							913,
+							993,
 						},
 						name = "WAR Map Lock",
 						uuid = "9b076d82-2c7f-97e5-b2fb-c33e3cd311bf",
