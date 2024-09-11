@@ -56,36 +56,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_Camouflage",
-							uuid = "444e7862-6574-adaf-85a5-092c5b134622",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 58.9,
-				name = "Camo",
-				timelineIndex = 10,
-				timerOffset = -18,
-				uuid = "71b98117-af76-49a9-8563-339e84bf324f",
-				version = 2,
-			},
-			inheritedIndex = 5,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
 							gVar = "ACR_RikuGNB3_Tankbar_Nebula",
 							uuid = "d591dfe3-e74c-8e2b-8069-7dd1db16b6c5",
 							variableTogglesType = 3,
@@ -132,6 +102,36 @@ local tbl =
 				uuid = "408a2755-c481-e3ba-9d6b-f0d5c7f9c731",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_Camouflage",
+							uuid = "444e7862-6574-adaf-85a5-092c5b134622",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 58.9,
+				name = "Camo",
+				timelineIndex = 10,
+				timerOffset = -18,
+				uuid = "71b98117-af76-49a9-8563-339e84bf324f",
+				version = 2,
+			},
+			inheritedIndex = 5,
 		},
 		
 		{
@@ -745,7 +745,7 @@ local tbl =
 				mechanicTime = 221,
 				name = "Rampart",
 				timelineIndex = 34,
-				timerOffset = 5,
+				timerOffset = 1,
 				uuid = "5e955349-6153-06db-9afc-c46de24ea284",
 				version = 2,
 			},
@@ -774,7 +774,7 @@ local tbl =
 				mechanicTime = 221,
 				name = "HoC",
 				timelineIndex = 34,
-				timerOffset = 7,
+				timerOffset = 4,
 				uuid = "e6d2727c-8fe5-ebd1-b5b8-169ba0efcdb0",
 				version = 2,
 			},
@@ -1287,7 +1287,7 @@ local tbl =
 				name = "Camo",
 				timelineIndex = 64,
 				timerOffset = 3,
-				uuid = "9d64a9dc-079d-ac58-9ddb-9a6922c2fa39",
+				uuid = "86326d18-c108-b4a0-8ed1-0c91018cfe76",
 				version = 2,
 			},
 			inheritedIndex = 1,
@@ -1316,8 +1316,8 @@ local tbl =
 				mechanicTime = 460.5,
 				name = "Rampart",
 				timelineIndex = 64,
-				timerOffset = 5,
-				uuid = "3ab2c59c-abad-a0ed-b33b-90ea9cdfadcc",
+				timerOffset = 1,
+				uuid = "30e69802-6984-e396-9016-5bd21a548567",
 				version = 2,
 			},
 		},
@@ -1345,8 +1345,8 @@ local tbl =
 				mechanicTime = 460.5,
 				name = "HoC",
 				timelineIndex = 64,
-				timerOffset = 7,
-				uuid = "84d41e29-0079-0066-a29b-104b980a3575",
+				timerOffset = 4,
+				uuid = "23c99498-c14f-4710-9866-6f2928e7d4e4",
 				version = 2,
 			},
 			inheritedIndex = 3,
@@ -1376,7 +1376,7 @@ local tbl =
 				name = "Aurora Self",
 				timelineIndex = 64,
 				timerOffset = 11,
-				uuid = "5b2841bb-6cf1-0a53-9ae3-601dee675b85",
+				uuid = "53a7c0ae-d095-cfbe-9529-8c47d8881ed8",
 				version = 2,
 			},
 			inheritedIndex = 6,
