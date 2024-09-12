@@ -57,12 +57,12 @@ local tbl =
 						{
 							
 							{
-								"e541227e-21a7-1178-8c94-cd083a80c53c",
+								"24170a97-e467-02ea-b9b3-9d1715f1eb37",
 								true,
 							},
 							
 							{
-								"f4aca0bf-d29a-e6af-9133-1d6ab5f7922c",
+								"e541227e-21a7-1178-8c94-cd083a80c53c",
 								true,
 							},
 						},
@@ -211,6 +211,26 @@ local tbl =
 			},
 			conditions = 
 			{
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 12,
+						localMapIDList = 
+						{
+							1201,
+							1226,
+							1228,
+							1230,
+							1232,
+						},
+						name = "Thrill Map Lock",
+						uuid = "24170a97-e467-02ea-b9b3-9d1715f1eb37",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
 				
 				{
 					data = 
@@ -385,6 +405,7 @@ local tbl =
 					},
 				},
 			},
+			enabled = false,
 			eventType = 16,
 			name = "WAR MT Prepull",
 			uuid = "3b04181e-14d9-664a-aada-a96c2b91b711",
@@ -657,7 +678,6 @@ local tbl =
 					},
 				},
 			},
-			enabled = false,
 			eventType = 16,
 			name = "WAR OT Prepull",
 			uuid = "1d21517f-2dfe-02f3-937f-38be7c4d34ee",
