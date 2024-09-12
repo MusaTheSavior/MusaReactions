@@ -478,7 +478,7 @@ local tbl =
 						{
 							
 							{
-								"9b076d82-2c7f-97e5-b2fb-c33e3cd311bf",
+								"40f4bdb9-9899-5441-8e46-bcafce3d228e",
 								true,
 							},
 							
@@ -545,6 +545,26 @@ local tbl =
 			},
 			conditions = 
 			{
+				
+				{
+					data = 
+					{
+						category = "Self",
+						conditionType = 12,
+						localMapIDList = 
+						{
+							1201,
+							1226,
+							1228,
+							1230,
+							1232,
+						},
+						name = "Thrill Map Lock",
+						uuid = "40f4bdb9-9899-5441-8e46-bcafce3d228e",
+						version = 2,
+					},
+					inheritedIndex = 1,
+				},
 				
 				{
 					data = 
