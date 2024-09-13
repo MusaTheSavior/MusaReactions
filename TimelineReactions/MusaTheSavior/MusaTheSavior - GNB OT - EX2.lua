@@ -91,10 +91,40 @@ local tbl =
 				mechanicTime = 58.9,
 				name = "Rampart",
 				timelineIndex = 10,
-				timerOffset = -19,
+				timerOffset = -19.5,
 				uuid = "0cace962-7d4d-d784-8593-ac5d6c9992a0",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_Camouflage",
+							uuid = "444e7862-6574-adaf-85a5-092c5b134622",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 58.9,
+				name = "Camo",
+				timelineIndex = 10,
+				timerOffset = -18.5,
+				uuid = "5d29d979-2b8f-9176-a553-bd55e2b31fb5",
+				version = 2,
+			},
+			inheritedIndex = 5,
 		},
 		
 		{
@@ -153,36 +183,6 @@ local tbl =
 				uuid = "c62a054c-7d71-eae7-bc94-277f633b4cde",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_Camouflage",
-							uuid = "444e7862-6574-adaf-85a5-092c5b134622",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 58.9,
-				name = "Camo",
-				timelineIndex = 10,
-				timerOffset = -18,
-				uuid = "5d29d979-2b8f-9176-a553-bd55e2b31fb5",
-				version = 2,
-			},
-			inheritedIndex = 5,
 		},
 		
 		{
@@ -346,38 +346,6 @@ local tbl =
 			},
 		},
 	},
-	[15] = 
-	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Hotbar_Sprint",
-							uuid = "3122a9fe-c84c-d8ed-9d8b-0efd8bc1af16",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 108.2,
-				name = "Sprint",
-				timelineIndex = 15,
-				timerOffset = -10,
-				uuid = "b051a3c1-d377-3af3-b582-306e919cbf9e",
-				version = 2,
-			},
-		},
-	},
 	[21] = 
 	{
 		
@@ -409,6 +377,65 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumSelf",
+							uuid = "7a31775d-7d1c-b35e-9916-7a0ec712c7ac",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 146.4,
+				name = "HoC",
+				timelineIndex = 21,
+				timerOffset = -3.5,
+				uuid = "2ec62e8d-6395-d227-a721-16993a4df723",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_Camouflage",
+							uuid = "444e7862-6574-adaf-85a5-092c5b134622",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 146.4,
+				name = "Camo",
+				timelineIndex = 21,
+				timerOffset = -16,
+				uuid = "bea7f9f1-f6fc-ed40-8c07-4327c9b0a04c",
+				version = 2,
+			},
+			inheritedIndex = 5,
+		},
 	},
 	[22] = 
 	{
@@ -424,35 +451,6 @@ local tbl =
 			inheritedOverwrites = 
 			{
 				timerStartOffset = -14.89999961853,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_HeartOfLight",
-							uuid = "5e995dfe-3709-d2b4-8e33-e41478b819c3",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 151.4,
-				name = "HoL",
-				timelineIndex = 22,
-				timerOffset = -14,
-				uuid = "ace8f887-fbe8-d292-921c-12a35a1e6c0d",
-				version = 2,
 			},
 		},
 		
@@ -483,6 +481,39 @@ local tbl =
 				uuid = "fc70d0d1-4a02-e9c8-bfec-fbc0b5035e91",
 				version = 2,
 			},
+		},
+	},
+	[23] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumOT",
+							uuid = "4eeec887-187e-9d62-8727-c18abe3631e6",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 163.7,
+				name = "HoC OT",
+				timelineIndex = 23,
+				timerOffset = 5,
+				uuid = "8c3f101f-4656-435d-94e1-deae7f9b2be8",
+				version = 2,
+			},
+			inheritedIndex = 2,
 		},
 	},
 	[29] = 
@@ -576,8 +607,37 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_AuroraSelf",
+							uuid = "e8394f1a-7a7e-a3c2-9e26-bef7056c773f",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 202.4,
+				name = "Aurora Self",
+				timelineIndex = 32,
+				uuid = "ece06932-5499-82ce-8a05-9a9cd8c19dfe",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
 	},
-	[33] = 
+	[34] = 
 	{
 		
 		{
@@ -600,17 +660,45 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 214.5,
+				mechanicTime = 221,
 				name = "Rampart",
-				timelineIndex = 33,
-				timerOffset = 1,
-				uuid = "7af10078-9e40-abbd-8a6a-e4e518a357e4",
+				timelineIndex = 34,
+				timerOffset = -2,
+				uuid = "470ad541-5802-1a1a-af5d-1e90625adb81",
 				version = 2,
 			},
+			inheritedIndex = 1,
 		},
-	},
-	[34] = 
-	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_Nebula",
+							uuid = "d591dfe3-e74c-8e2b-8069-7dd1db16b6c5",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 221,
+				name = "Great Nebula",
+				timelineIndex = 34,
+				timerOffset = 1,
+				uuid = "1030a812-4db5-1f9f-87ec-b18d2e044752",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
 		
 		{
 			data = 
@@ -636,39 +724,10 @@ local tbl =
 				name = "Camo",
 				timelineIndex = 34,
 				timerOffset = 3,
-				uuid = "5c66a8c2-7cda-43b2-a39c-55fa19b924dd",
+				uuid = "23c141a5-4fe8-d846-baec-9a23ac86bd33",
 				version = 2,
 			},
-			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_Rampart",
-							uuid = "5d5db8d4-8278-535e-bed0-7017a2ce8dc8",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 221,
-				name = "Rampart",
-				timelineIndex = 34,
-				timerOffset = 1,
-				uuid = "5e2063ac-9f57-da6f-b211-bdac53b7a5be",
-				version = 2,
-			},
+			inheritedIndex = 3,
 		},
 		
 		{
@@ -695,10 +754,10 @@ local tbl =
 				name = "HoC",
 				timelineIndex = 34,
 				timerOffset = 4,
-				uuid = "896af093-0726-c296-9c01-1c7cba8a4c07",
+				uuid = "d2b37934-a8d9-ddf6-9af7-ccce9da0dd4f",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 4,
 		},
 		
 		{
@@ -711,8 +770,8 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_AuroraSelf",
-							uuid = "e8394f1a-7a7e-a3c2-9e26-bef7056c773f",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfLight",
+							uuid = "5e995dfe-3709-d2b4-8e33-e41478b819c3",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -722,40 +781,39 @@ local tbl =
 				{
 				},
 				mechanicTime = 221,
-				name = "Aurora Self",
-				timelineIndex = 34,
-				timerOffset = 11,
-				uuid = "05f91c02-5ef4-52e9-b4ca-b3f0a27b51f9",
-				version = 2,
-			},
-			inheritedIndex = 6,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_Nebula",
-							uuid = "d591dfe3-e74c-8e2b-8069-7dd1db16b6c5",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 221,
-				name = "Great Nebula",
+				name = "HoL",
 				timelineIndex = 34,
 				timerOffset = 6,
-				uuid = "efd9121e-711a-5977-844c-f00a4cc2decf",
+				uuid = "215e48cc-9856-6cc9-9499-aa3355319485",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumLowest",
+							uuid = "f2da3da7-3b2f-09d5-9521-06beb05ac4bb",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 221,
+				name = "HoC Lowest",
+				timelineIndex = 34,
+				timerOffset = 29,
+				uuid = "19eef781-29ff-a1a2-9cab-e5ca3784a371",
 				version = 2,
 			},
 		},
@@ -775,6 +833,36 @@ local tbl =
 			{
 				timerStartOffset = -14.89999961853,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumOT",
+							uuid = "4eeec887-187e-9d62-8727-c18abe3631e6",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 286.3,
+				name = "HoC OT",
+				timelineIndex = 38,
+				timerOffset = 0.5,
+				uuid = "40200504-6df2-93fc-b01c-c487c04767f1",
+				version = 2,
+			},
+			inheritedIndex = 2,
 		},
 	},
 	[41] = 
@@ -1205,6 +1293,36 @@ local tbl =
 				uuid = "d4ef8eb1-13b5-2a58-a9dd-34847d106d86",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumSelf",
+							uuid = "7a31775d-7d1c-b35e-9916-7a0ec712c7ac",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 505.3,
+				name = "HoC",
+				timelineIndex = 68,
+				timerOffset = -18,
+				uuid = "f8c257fa-0db1-610b-b20a-cfc6cf7daccf",
+				version = 2,
+			},
+			inheritedIndex = 3,
 		},
 	},
 	[70] = 

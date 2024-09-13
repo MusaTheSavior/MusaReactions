@@ -1,5 +1,22 @@
 local tbl = 
 {
+	[3] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "[Melee] Feint",
+				uuid = "4a7b6589-7a03-3905-80c2-1b787eba8720",
+				version = 2,
+			},
+			inheritedObjectUUID = "e1dbf5ea-fb2d-bd99-bfb2-024575ea01aa",
+			inheritedOverwrites = 
+			{
+				timerStartOffset = -14.89999961853,
+			},
+		},
+	},
 	[10] = 
 	{
 		
@@ -40,10 +57,40 @@ local tbl =
 				mechanicTime = 58.9,
 				name = "Rampart",
 				timelineIndex = 10,
-				timerOffset = -19,
+				timerOffset = -19.5,
 				uuid = "c54409ad-54f1-afad-98c3-45cf08f6c273",
 				version = 2,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_Camouflage",
+							uuid = "444e7862-6574-adaf-85a5-092c5b134622",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 58.9,
+				name = "Camo",
+				timelineIndex = 10,
+				timerOffset = -18,
+				uuid = "71b98117-af76-49a9-8563-339e84bf324f",
+				version = 2,
+			},
+			inheritedIndex = 5,
 		},
 		
 		{
@@ -102,36 +149,6 @@ local tbl =
 				uuid = "408a2755-c481-e3ba-9d6b-f0d5c7f9c731",
 				version = 2,
 			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_Camouflage",
-							uuid = "444e7862-6574-adaf-85a5-092c5b134622",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 58.9,
-				name = "Camo",
-				timelineIndex = 10,
-				timerOffset = -18,
-				uuid = "71b98117-af76-49a9-8563-339e84bf324f",
-				version = 2,
-			},
-			inheritedIndex = 5,
 		},
 		
 		{
@@ -311,35 +328,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Hotbar_Sprint",
-							uuid = "3122a9fe-c84c-d8ed-9d8b-0efd8bc1af16",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 108.2,
-				name = "Sprint",
-				timelineIndex = 15,
-				timerOffset = -10,
-				uuid = "e2a912fb-8c94-626e-bbe6-a915b6b89d15",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
 							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumSelf",
 							uuid = "7a31775d-7d1c-b35e-9916-7a0ec712c7ac",
 							variableTogglesType = 3,
@@ -402,6 +390,36 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_Rampart",
+							uuid = "5d5db8d4-8278-535e-bed0-7017a2ce8dc8",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 146.4,
+				name = "Rampart",
+				timelineIndex = 21,
+				timerOffset = -17,
+				uuid = "b86e6bc1-fa72-d9e9-bec7-08ebb4e069b1",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
 							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumSelf",
 							uuid = "7a31775d-7d1c-b35e-9916-7a0ec712c7ac",
 							variableTogglesType = 3,
@@ -444,7 +462,7 @@ local tbl =
 				mechanicTime = 146.4,
 				name = "Camo",
 				timelineIndex = 21,
-				timerOffset = -18,
+				timerOffset = -16,
 				uuid = "461727bc-68a0-dc0e-ab0d-615897366b4d",
 				version = 2,
 			},
@@ -486,6 +504,20 @@ local tbl =
 		{
 			data = 
 			{
+				name = "[Ranged] Party Mit",
+				uuid = "75f587ba-e8b0-f342-a347-a6574012e96d",
+				version = 2,
+			},
+			inheritedObjectUUID = "8fb91cb2-67db-0dba-9814-657e62201796",
+			inheritedOverwrites = 
+			{
+				timerStartOffset = -14.89999961853,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -511,6 +543,35 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_Reprisal",
+							uuid = "4376bba8-ef77-c298-ba71-c48852282e1c",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 151.4,
+				name = "Reprisal",
+				timelineIndex = 22,
+				timerOffset = -14,
+				uuid = "4474201b-e4cb-8212-82f8-68e6ac72d3ee",
+				version = 2,
+			},
 		},
 	},
 	[23] = 
@@ -547,35 +608,6 @@ local tbl =
 	},
 	[28] = 
 	{
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_Reprisal",
-							uuid = "4376bba8-ef77-c298-ba71-c48852282e1c",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 192.4,
-				name = "Reprisal",
-				timelineIndex = 28,
-				timerOffset = -14,
-				uuid = "9109f19f-a7b5-5aa5-89b8-0c21ff269d75",
-				version = 2,
-			},
-		},
 		
 		{
 			data = 
@@ -633,7 +665,7 @@ local tbl =
 				mechanicTime = 192.4,
 				name = "Sprint",
 				timelineIndex = 29,
-				timerOffset = -10,
+				timerOffset = -8,
 				uuid = "f8192fc2-8312-d3d0-a9ec-b171b14c4fba",
 				version = 2,
 			},
@@ -654,6 +686,35 @@ local tbl =
 			{
 				timerStartOffset = -9.8000001907349,
 			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_AuroraSelf",
+							uuid = "e8394f1a-7a7e-a3c2-9e26-bef7056c773f",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 202.4,
+				name = "Aurora Self",
+				timelineIndex = 32,
+				uuid = "68ed496b-1abb-9a31-aa97-cf0fd81998b6",
+				version = 2,
+			},
+			inheritedIndex = 6,
 		},
 	},
 	[33] = 
@@ -702,6 +763,66 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_Rampart",
+							uuid = "5d5db8d4-8278-535e-bed0-7017a2ce8dc8",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 221,
+				name = "Rampart",
+				timelineIndex = 34,
+				timerOffset = -2,
+				uuid = "5e955349-6153-06db-9afc-c46de24ea284",
+				version = 2,
+			},
+			inheritedIndex = 1,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_Nebula",
+							uuid = "d591dfe3-e74c-8e2b-8069-7dd1db16b6c5",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 221,
+				name = "Great Nebula",
+				timelineIndex = 34,
+				timerOffset = 1,
+				uuid = "32244473-c877-5c05-bb0c-106dbffdacc0",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
 							gVar = "ACR_RikuGNB3_Tankbar_Camouflage",
 							uuid = "444e7862-6574-adaf-85a5-092c5b134622",
 							variableTogglesType = 3,
@@ -719,36 +840,7 @@ local tbl =
 				uuid = "dac659e8-7d36-7561-b15a-a84b6fd5222b",
 				version = 2,
 			},
-			inheritedIndex = 1,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_Rampart",
-							uuid = "5d5db8d4-8278-535e-bed0-7017a2ce8dc8",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 221,
-				name = "Rampart",
-				timelineIndex = 34,
-				timerOffset = 1,
-				uuid = "5e955349-6153-06db-9afc-c46de24ea284",
-				version = 2,
-			},
+			inheritedIndex = 3,
 		},
 		
 		{
@@ -778,7 +870,7 @@ local tbl =
 				uuid = "e6d2727c-8fe5-ebd1-b5b8-169ba0efcdb0",
 				version = 2,
 			},
-			inheritedIndex = 3,
+			inheritedIndex = 4,
 		},
 		
 		{
@@ -791,8 +883,8 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_AuroraSelf",
-							uuid = "e8394f1a-7a7e-a3c2-9e26-bef7056c773f",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumSelf",
+							uuid = "7a31775d-7d1c-b35e-9916-7a0ec712c7ac",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -802,13 +894,13 @@ local tbl =
 				{
 				},
 				mechanicTime = 221,
-				name = "Aurora Self",
+				name = "HoC",
 				timelineIndex = 34,
-				timerOffset = 11,
-				uuid = "e4adef18-04a6-e8d5-b111-0d755d3a4907",
+				timerOffset = 29,
+				uuid = "1957d806-42ba-296b-8a49-3bbe716839c6",
 				version = 2,
 			},
-			inheritedIndex = 6,
+			inheritedIndex = 5,
 		},
 		
 		{
@@ -821,8 +913,8 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuGNB3_Tankbar_Nebula",
-							uuid = "d591dfe3-e74c-8e2b-8069-7dd1db16b6c5",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfLight",
+							uuid = "5e995dfe-3709-d2b4-8e33-e41478b819c3",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -832,10 +924,10 @@ local tbl =
 				{
 				},
 				mechanicTime = 221,
-				name = "Great Nebula",
+				name = "HoL",
 				timelineIndex = 34,
 				timerOffset = 6,
-				uuid = "32244473-c877-5c05-bb0c-106dbffdacc0",
+				uuid = "33b87222-b20c-4a21-8982-41f9ab93da83",
 				version = 2,
 			},
 		},
@@ -871,6 +963,36 @@ local tbl =
 				version = 2,
 			},
 		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_AuroraSelf",
+							uuid = "e8394f1a-7a7e-a3c2-9e26-bef7056c773f",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 271,
+				name = "Aurora Self",
+				timelineIndex = 37,
+				timerOffset = -12,
+				uuid = "22173115-51e8-818b-b6e8-44b17f4a32ae",
+				version = 2,
+			},
+			inheritedIndex = 6,
+		},
 	},
 	[38] = 
 	{
@@ -878,15 +1000,31 @@ local tbl =
 		{
 			data = 
 			{
-				name = "[Melee] Feint",
-				uuid = "7d87974f-9bea-7445-b25e-3801bfbad634",
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_HeartOfCorundumSelf",
+							uuid = "7a31775d-7d1c-b35e-9916-7a0ec712c7ac",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 286.3,
+				name = "HoC",
+				timelineIndex = 38,
+				timerOffset = -3.9000000953674,
+				uuid = "e9c30fa4-5fb1-a87a-92e2-0d983afd9a94",
 				version = 2,
 			},
-			inheritedObjectUUID = "9e0325a5-e329-c41d-8d74-9ab41d70f70b",
-			inheritedOverwrites = 
-			{
-				timerStartOffset = -14.89999961853,
-			},
+			inheritedIndex = 4,
 		},
 	},
 	[39] = 
