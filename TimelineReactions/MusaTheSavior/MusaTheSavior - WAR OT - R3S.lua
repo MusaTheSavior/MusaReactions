@@ -74,86 +74,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuWAR3_Tankbar_Rampart",
-							uuid = "4c83086b-5b99-cce9-b2fd-8a4456d1b0d0",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 20.9,
-				name = "Rampart",
-				timelineIndex = 3,
-				timerOffset = -6,
-				uuid = "54c8242e-041e-e831-85be-ff1b501a481d",
-				version = 2,
-			},
-			inheritedIndex = 2,
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							conditions = 
-							{
-								
-								{
-									"13e43ffd-2c61-4773-9f6f-a8afdec06965",
-									true,
-								},
-							},
-							gVar = "ACR_RikuWAR3_Tankbar_Bloodwhetting",
-							uuid = "daa974c3-bb6f-92ac-bf67-e4da5d69d562",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-					
-					{
-						data = 
-						{
-							actionCDValue = 1,
-							actionID = 25751,
-							category = "Self",
-							comparator = 2,
-							conditionType = 4,
-							uuid = "13e43ffd-2c61-4773-9f6f-a8afdec06965",
-							version = 2,
-						},
-					},
-				},
-				mechanicTime = 20.9,
-				name = "BloodWhetting",
-				timelineIndex = 3,
-				timerOffset = 3,
-				uuid = "f6c9be9e-f99f-7546-8966-ddf58ee38cf5",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
 							gVar = "ACR_RikuWAR3_Tankbar_Equilibrium",
 							uuid = "8acdb49a-b851-cae0-bc60-be2cef494c9d",
 							variableTogglesType = 3,
@@ -169,6 +89,35 @@ local tbl =
 				timelineIndex = 3,
 				timerOffset = 0.5,
 				uuid = "73754cca-77ea-0f23-946a-06f04259f130",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Tankbar_NascentFlashOT",
+							uuid = "255e1fa0-66f6-ce3a-a3f0-2333a6880a41",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 20.9,
+				name = "Nascent MT",
+				timelineIndex = 3,
+				timerOffset = 3.9000000953674,
+				uuid = "0ecfb829-7d79-e158-97d3-af4d46cf9b8b",
 				version = 2,
 			},
 		},
@@ -227,6 +176,36 @@ local tbl =
 	},
 	[10] = 
 	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Tankbar_Rampart",
+							uuid = "4c83086b-5b99-cce9-b2fd-8a4456d1b0d0",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 51.8,
+				name = "Rampart",
+				timelineIndex = 10,
+				timerOffset = -19,
+				uuid = "426d94af-7801-25cc-a392-81b61c85359c",
+				version = 2,
+			},
+			inheritedIndex = 2,
+		},
 		
 		{
 			data = 
@@ -985,6 +964,38 @@ local tbl =
 			},
 		},
 	},
+	[42] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Tankbar_NascentFlashOT",
+							uuid = "255e1fa0-66f6-ce3a-a3f0-2333a6880a41",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 253,
+				name = "Nascent MT",
+				timelineIndex = 42,
+				timerOffset = -2,
+				uuid = "3537f311-ff67-3e1c-a7a8-dddffefa0c98",
+				version = 2,
+			},
+		},
+	},
 	[46] = 
 	{
 		
@@ -1045,38 +1056,23 @@ local tbl =
 				version = 2,
 			},
 		},
+	},
+	[47] = 
+	{
 		
 		{
 			data = 
 			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
-							gVar = "ACR_RikuWAR3_Tankbar_NascentFlashOT",
-							uuid = "255e1fa0-66f6-ce3a-a3f0-2333a6880a41",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 270.2,
-				name = "Nascent MT",
-				timelineIndex = 46,
-				timerOffset = -4,
-				uuid = "6e9d1d76-e951-9900-929a-cbf8f4113cdd",
+				name = "Anti-Knockback Ignore Weave",
+				uuid = "36973b53-bc7b-5133-803a-d35a610755cf",
 				version = 2,
 			},
+			inheritedObjectUUID = "18ba698b-5487-45fb-b21b-21e9f97eb272",
+			inheritedOverwrites = 
+			{
+				timerStartOffset = -2.6500000953674,
+			},
 		},
-	},
-	[47] = 
-	{
 		
 		{
 			data = 
@@ -1137,9 +1133,6 @@ local tbl =
 				version = 2,
 			},
 		},
-	},
-	[50] = 
-	{
 		
 		{
 			data = 
@@ -1151,8 +1144,8 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuWAR3_Tankbar_NascentFlashOT",
-							uuid = "255e1fa0-66f6-ce3a-a3f0-2333a6880a41",
+							gVar = "ACR_RikuWAR3_Tankbar_NascentFlashLowest",
+							uuid = "2f042157-adb8-3666-9f79-73e0cd5e16aa",
 							variableTogglesType = 3,
 							version = 2.1,
 						},
@@ -1161,14 +1154,17 @@ local tbl =
 				conditions = 
 				{
 				},
-				mechanicTime = 290,
-				name = "Nascent MT",
-				timelineIndex = 50,
-				timerOffset = 1,
-				uuid = "7db717c6-cc31-3cf8-94cc-aea0f8bc2dd2",
+				mechanicTime = 281.2,
+				name = "Nascent Lowest",
+				timelineIndex = 49,
+				timerOffset = -2.7999999523163,
+				uuid = "67928793-b22f-6bb9-b84f-bf39f5710651",
 				version = 2,
 			},
 		},
+	},
+	[50] = 
+	{
 		
 		{
 			data = 
@@ -1254,8 +1250,66 @@ local tbl =
 				mechanicTime = 305.3,
 				name = "Nascent Lowest",
 				timelineIndex = 54,
-				timerOffset = 11,
+				timerOffset = -8,
 				uuid = "638e3dff-81c7-97ad-ad4d-ce7c6bb774c2",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Tankbar_ShakeItOff",
+							uuid = "b95d302a-ed10-0181-abb8-9a874a8d9ff1",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 305.3,
+				name = "Shake ",
+				timelineIndex = 54,
+				timerOffset = 0.5,
+				uuid = "a0208837-4d2d-5898-b8c3-2a5c60ab5470",
+				version = 2,
+			},
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Tankbar_NascentFlashLowest",
+							uuid = "2f042157-adb8-3666-9f79-73e0cd5e16aa",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 305.3,
+				name = "Nascent Lowest",
+				timelineIndex = 54,
+				timerOffset = 20,
+				uuid = "2922ccdd-715f-5080-8453-224063fe1d21",
 				version = 2,
 			},
 		},
@@ -1740,35 +1794,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuWAR3_Tankbar_ShakeItOff",
-							uuid = "b95d302a-ed10-0181-abb8-9a874a8d9ff1",
-							variableTogglesType = 3,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 482.7,
-				name = "Shake ",
-				timelineIndex = 77,
-				timerOffset = 0.5,
-				uuid = "5dd71a68-20ee-54e0-85cd-aaa5bf22f49a",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
 							gVar = "ACR_RikuWAR3_Tankbar_ThrillOfBattle",
 							uuid = "58b7ac09-c1eb-6485-bb51-27e861d334a6",
 							variableTogglesType = 3,
@@ -1787,6 +1812,35 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 4,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Tankbar_ShakeItOff",
+							uuid = "b95d302a-ed10-0181-abb8-9a874a8d9ff1",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 482.7,
+				name = "Shake ",
+				timelineIndex = 77,
+				timerOffset = 0.5,
+				uuid = "5dd71a68-20ee-54e0-85cd-aaa5bf22f49a",
+				version = 2,
+			},
 		},
 	},
 	[78] = 
@@ -2365,35 +2419,6 @@ local tbl =
 						data = 
 						{
 							aType = "ACR",
-							gVar = "ACR_RikuWAR3_Hotbar_Provoke",
-							uuid = "0a6d103d-f7bf-e94f-b89f-4d7a89acf4f4",
-							variableTogglesType = 2,
-							version = 2.1,
-						},
-					},
-				},
-				conditions = 
-				{
-				},
-				mechanicTime = 613,
-				name = "Provoke",
-				timelineIndex = 100,
-				timerOffset = -13,
-				uuid = "e4b4c67f-4811-a95c-ae0a-e138f4a8c83f",
-				version = 2,
-			},
-		},
-		
-		{
-			data = 
-			{
-				actions = 
-				{
-					
-					{
-						data = 
-						{
-							aType = "ACR",
 							gVar = "ACR_RikuWAR3_Tankbar_Holmgang",
 							uuid = "a891d2ac-8440-86d3-a3fb-38248d61caf8",
 							variableTogglesType = 3,
@@ -2463,6 +2488,35 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
+		},
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuWAR3_Hotbar_Provoke",
+							uuid = "0a6d103d-f7bf-e94f-b89f-4d7a89acf4f4",
+							variableTogglesType = 2,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 613,
+				name = "Provoke",
+				timelineIndex = 100,
+				timerOffset = -13,
+				uuid = "e4b4c67f-4811-a95c-ae0a-e138f4a8c83f",
+				version = 2,
+			},
 		},
 		
 		{

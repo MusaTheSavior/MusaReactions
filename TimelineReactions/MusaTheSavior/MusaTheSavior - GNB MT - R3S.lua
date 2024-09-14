@@ -69,6 +69,20 @@ local tbl =
 		{
 			data = 
 			{
+				name = "Instant Dash",
+				uuid = "41a4ea0c-5f4c-b6af-937b-b850844170d7",
+				version = 2,
+			},
+			inheritedObjectUUID = "d9b349c8-058c-4079-80f3-7aecfd65b2f0",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = 1,
+			},
+		},
+		
+		{
+			data = 
+			{
 				actions = 
 				{
 					
@@ -93,6 +107,39 @@ local tbl =
 				uuid = "ee04c48d-38c4-78c5-a58d-421a44032d20",
 				version = 2,
 			},
+		},
+	},
+	[10] = 
+	{
+		
+		{
+			data = 
+			{
+				actions = 
+				{
+					
+					{
+						data = 
+						{
+							aType = "ACR",
+							gVar = "ACR_RikuGNB3_Tankbar_Nebula",
+							uuid = "72adab17-1b66-16a2-a99a-4405315c63a2",
+							variableTogglesType = 3,
+							version = 2.1,
+						},
+					},
+				},
+				conditions = 
+				{
+				},
+				mechanicTime = 51.8,
+				name = "Great Nebula",
+				timelineIndex = 10,
+				timerOffset = -10,
+				uuid = "c10f97b3-75d4-ab8d-ba64-f9d75cd81158",
+				version = 2,
+			},
+			inheritedIndex = 5,
 		},
 	},
 	[12] = 
@@ -241,6 +288,20 @@ local tbl =
 	},
 	[17] = 
 	{
+		
+		{
+			data = 
+			{
+				name = "Knockback Arrow",
+				uuid = "c5061d35-1d36-bf1d-843d-75c0be449a3a",
+				version = 2,
+			},
+			inheritedObjectUUID = "5f3886f6-d6b1-a0a9-baa9-1f8e5ed41277",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = 0.20000000298023,
+			},
+		},
 		
 		{
 			data = 
@@ -397,6 +458,37 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 1,
+		},
+	},
+	[25] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Anti-Knockback",
+				uuid = "1d35369e-635e-e389-b34f-d13b2336f584",
+				version = 2,
+			},
+			inheritedObjectUUID = "9cdc694b-c7e6-aaa9-a89e-2ebe2930056e",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = -2.7000000476837,
+			},
+		},
+		
+		{
+			data = 
+			{
+				name = "Anti-Knockback Ignore Weave",
+				uuid = "2d861467-6d5f-9001-842b-608883c92fca",
+				version = 2,
+			},
+			inheritedObjectUUID = "bc1fcfb9-2c17-b8b9-b570-436984409d61",
+			inheritedOverwrites = 
+			{
+				timerStartOffset = -2.6500000953674,
+			},
 		},
 	},
 	[26] = 
@@ -864,6 +956,23 @@ local tbl =
 				version = 2,
 			},
 			inheritedIndex = 6,
+		},
+	},
+	[47] = 
+	{
+		
+		{
+			data = 
+			{
+				name = "Anti-Knockback",
+				uuid = "3efe62c4-d05d-b1f4-9f30-e48f9f6dc185",
+				version = 2,
+			},
+			inheritedObjectUUID = "3bb543cd-f06a-e0ca-b8cc-dc9145685f7c",
+			inheritedOverwrites = 
+			{
+				timerEndOffset = -2.7000000476837,
+			},
 		},
 	},
 	[49] = 
