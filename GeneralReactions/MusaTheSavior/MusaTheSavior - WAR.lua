@@ -405,7 +405,6 @@ local tbl =
 					},
 				},
 			},
-			enabled = false,
 			eventType = 16,
 			name = "WAR MT Prepull",
 			uuid = "3b04181e-14d9-664a-aada-a96c2b91b711",
@@ -698,9 +697,125 @@ local tbl =
 					},
 				},
 			},
+			enabled = false,
 			eventType = 16,
 			name = "WAR OT Prepull",
 			uuid = "1d21517f-2dfe-02f3-937f-38be7c4d34ee",
+			version = 2,
+		},
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "gStartCombat = false\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"a280fbb7-b092-6e0d-81df-d6160f35a7c3",
+								true,
+							},
+						},
+						gVar = "ACR_RikuMNK3_CD",
+						name = "Boss Unpulled",
+						uuid = "cfdd4c80-07c6-3383-9327-e97a123a31cb",
+						version = 2.1,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "gStartCombat = true\n\nTensorCore.API.TensorACR.holdActionUntil(7387, Now() + 9000) -- upheaval\nTensorCore.API.TensorACR.holdActionUntil(7386, Now() + 9000) -- onslaught\n\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"fa2196d3-300e-a50f-bab1-5c81fa9d3f1a",
+								true,
+							},
+						},
+						gVar = "ACR_RikuMNK3_CD",
+						name = "Hold Ressource",
+						uuid = "ac151d56-3bbb-b193-b279-54b8b397bfd4",
+						version = 2.1,
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Lua",
+						actionLua = "gStartCombat = false\nself.used = true",
+						conditions = 
+						{
+							
+							{
+								"536c83e0-9e54-69fd-b7c5-2323d24a7d0f",
+								true,
+							},
+						},
+						gVar = "ACR_RikuMNK3_CD",
+						name = "Boss Pulled",
+						uuid = "cc6b732f-9b32-2d26-9732-d0d38bce0833",
+						version = 2.1,
+					},
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						category = "Event",
+						comparator = 2,
+						eventCountdownTime = 5,
+						name = "Pull in 5sec",
+						uuid = "a280fbb7-b092-6e0d-81df-d6160f35a7c3",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Event",
+						comparator = 2,
+						eventCountdownTime = 0.69999998807907,
+						name = "Pull in 0sec",
+						uuid = "fa2196d3-300e-a50f-bab1-5c81fa9d3f1a",
+						version = 2,
+					},
+				},
+				
+				{
+					data = 
+					{
+						category = "Event",
+						comparator = 2,
+						eventCountdownTime = -2,
+						name = "Pulled",
+						uuid = "536c83e0-9e54-69fd-b7c5-2323d24a7d0f",
+						version = 2,
+					},
+				},
+			},
+			eventType = 16,
+			mechanicTime = 3.4,
+			name = "[WAR] Hold Ressource",
+			timelineIndex = 1,
+			timeout = 30,
+			uuid = "1849ce92-e478-a00f-bb8f-c97553344d19",
 			version = 2,
 		},
 	}, 
